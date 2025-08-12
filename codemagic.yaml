@@ -58,8 +58,8 @@ workflows:
             distribution_type: app_store
             bundle_identifier: vnpt.qti.ecommune
           vars:
-            XCODE_WORKSPACE: "AwesomeProject.xcworkspace" # <-- Put the name of your Xcode workspace here
-            XCODE_SCHEME: "AwesomeProject" # <-- Put the name of your Xcode scheme here
+            XCODE_WORKSPACE: "MyNewApp.xcworkspace" # <-- Put the name of your Xcode workspace here
+            XCODE_SCHEME: "MyNewApp" # <-- Put the name of your Xcode scheme here
             APP_ID: 6749612311 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
           node: v19.7.0
           xcode: latest
